@@ -29,3 +29,24 @@ if (num1 >= num2 && num1 >= num3) {
 document.getElementById("demo").innerHTML = largest; // display the result
 
 //                                       3rd program
+// program that checks if the number is positive, negative or zero
+// input from the user
+const number = parseInt(prompt("Enter a number: "));
+
+// check if number is greater than 0
+if (number > 0) {
+    document.getElementById("dom2").innerHTML = "The number is positive"
+        // console.log("The number is positive");
+}
+
+// check if number is 0
+else if (number == 0) {
+    document.getElementById("dom2").innerHTML = "The number is zero"
+        // console.log("The number is zero");
+}
+
+// if number is less than 0
+else {
+    document.getElementById("dom2").innerHTML = "The number is negative"
+        // console.log("The number is negative");
+}
