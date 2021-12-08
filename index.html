@@ -23,7 +23,15 @@
         <br> // check the condition<br> if (num1 >= num2 && num1 >= num3) {<br> largest = num1;<br> } else if (num2 >= num1 && num2 >= num3) {<br> largest = num2;<br> } else { largest = num3;<br> }
         <br> document.getElementById("demo").innerHTML = largest; // display the result<br>
     </P>
-    <p id="demo"><b></b></p>
+    <p id="demo"></p>
+    <h1>3rd Program</h1>
+    <p><br>// program that checks if the number is positive, negative or zero<br> // input from the user<br> const number = parseInt(prompt("Enter a number: "));<br> // check if number is greater than 0<br> if (number > 0) {<br> document.getElementById("dom2").innerHTML
+        = "The number is positive"<br> // console.log("The number is positive");<br> }
+        <br>
+        <br> // check if number is 0<br> else if (number == 0) {<br> document.getElementById("dom2").innerHTML = "The number is zero"<br> // console.log("The number is zero");<br> }
+        <br> // if number is less than 0<br> else {<br> document.getElementById("dom2").innerHTML = "The number is negative"<br> // console.log("The number is negative");<br> }
+        <br></p>
+    <p id="dom2"></p>
     <script src="./script.js"></script>
 </body>
 
