@@ -1,0 +1,1 @@
+document.getElementById("dom").innerHTML = 5 + 6;
