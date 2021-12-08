@@ -6,13 +6,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment No 7</title>
-    <link rel="stylesheet" href="/script.js">
 </head>
 
 <body>
     <H1>First Program</H1>
-    <P>Write a js program to find maximum between two numbers.</P>
+    <P><b>Write a js program to find maximum between two numbers.</b>
+        <br> let num = max(150, 50)<br> // console.log(num)<br> document.getElementById("dom").innerHTML = num;<br> function max(num1, num2) {<br> if (num1 > num2)<br> return num1<br> return num2<br> }
+        <br>
+    </P>
     <p id="dom"></p>
+    <hr>
+    <H1>2nd Program</H1>
+    <P><b>Write a js program to find maximum between three numbers.</b><br> // program to find the largest among three numbers<br>
+        <br> // if you to take input from the user then use these three parsefloats<br> var num1 = 200 //parseFloat(prompt("Enter first number: "));<br> var num2 = 150 //parseFloat(prompt("Enter second number: "));<br> var num3 = 55 //parseFloat(prompt("Enter
+        third number: "));<br> let largest;<br>
+        <br> // check the condition<br> if (num1 >= num2 && num1 >= num3) {<br> largest = num1;<br> } else if (num2 >= num1 && num2 >= num3) {<br> largest = num2;<br> } else { largest = num3;<br> }
+        <br> document.getElementById("demo").innerHTML = largest; // display the result<br>
+    </P>
+    <p id="demo"><b></b></p>
+    <script src="./script.js"></script>
 </body>
 
 </html>
