@@ -9,29 +9,7 @@
 </head>
 
 <body>
-    <H1>First Program</H1>
-    <P><b>Write a js program to find maximum between two numbers.</b>
-        <br> let num = max(150, 50)<br> // console.log(num)<br> document.getElementById("dom").innerHTML = num;<br> function max(num1, num2) {<br> if (num1 > num2)<br> return num1<br> return num2<br> }
-        <br>
-    </P>
-    <p id="dom"></p>
-    <hr>
-    <H1>2nd Program</H1>
-    <P><b>Write a js program to find maximum between three numbers.</b><br> // program to find the largest among three numbers<br>
-        <br> // if you to take input from the user then use these three parsefloats<br> var num1 = 200 //parseFloat(prompt("Enter first number: "));<br> var num2 = 150 //parseFloat(prompt("Enter second number: "));<br> var num3 = 55 //parseFloat(prompt("Enter
-        third number: "));<br> let largest;<br>
-        <br> // check the condition<br> if (num1 >= num2 && num1 >= num3) {<br> largest = num1;<br> } else if (num2 >= num1 && num2 >= num3) {<br> largest = num2;<br> } else { largest = num3;<br> }
-        <br> document.getElementById("demo").innerHTML = largest; // display the result<br>
-    </P>
-    <p id="demo"></p>
-    <h1>3rd Program</h1>
-    <p><br>// program that checks if the number is positive, negative or zero<br> // input from the user<br> const number = parseInt(prompt("Enter a number: "));<br> // check if number is greater than 0<br> if (number > 0) {<br> document.getElementById("dom2").innerHTML
-        = "The number is positive"<br> // console.log("The number is positive");<br> }
-        <br>
-        <br> // check if number is 0<br> else if (number == 0) {<br> document.getElementById("dom2").innerHTML = "The number is zero"<br> // console.log("The number is zero");<br> }
-        <br> // if number is less than 0<br> else {<br> document.getElementById("dom2").innerHTML = "The number is negative"<br> // console.log("The number is negative");<br> }
-        <br></p>
-    <p id="dom2"></p>
+
     <script src="./script.js"></script>
 </body>
 
@@ -66,48 +44,31 @@
 
     <!---------------------------------------------Programa no 01---------------------------------------------------->
 
-    1. Write a js program to find maximum between two numbers.
-    <br>
-    <br> Enter Number 01: <input type="number" id="num1" placeholder="Enter Number 01">
-    <br> Enter Number 02: <input type="number" id="num2" placeholder="Enter Number 02">
-    <br>
-    <br>
-    <button onclick="max()" type="submit">Get result</button>
-    <br>
-    <button onclick="reset()">Reset</button>
-    <br>
-    <p id="result">Program 1 Result :</p>
+    <H1>First Program</H1>
+    <P><b>Write a js program to find maximum between two numbers.</b>
+        <br> let num = max(150, 50)<br> // console.log(num)<br> document.getElementById("dom").innerHTML = num;<br> function max(num1, num2) {<br> if (num1 > num2)<br> return num1<br> return num2<br> }
+        <br>
+    </P>
+    <p id="dom"></p>
     <hr>
-    <!--------------------------------------------------------------------------------------------------------------->
-
-    2. Write a js program to find maximum between three numbers.
-    <br>
-    <br> Enter Number 01: <input type="number" id="val1" placeholder="Enter Number 01">
-    <br> Enter Number 02: <input type="number" id="val2" placeholder="Enter Number 02">
-    <br> Enter Number 03: <input type="number" id="val3" placeholder="Enter Number 03">
-    <br>
-    <br>
-    <button onclick="max_three()" type="submit">Get result</button>
-    <br>
-    <button onclick="reset()">Reset</button>
-    <br>
-    <p id="result_02">Program 2 Result :</p>
-    <hr>
+    <H1>2nd Program</H1>
+    <P><b>Write a js program to find maximum between three numbers.</b><br> // program to find the largest among three numbers<br>
+        <br> // if you to take input from the user then use these three parsefloats<br> var num1 = 200 //parseFloat(prompt("Enter first number: "));<br> var num2 = 150 //parseFloat(prompt("Enter second number: "));<br> var num3 = 55 //parseFloat(prompt("Enter
+        third number: "));<br> let largest;<br>
+        <br> // check the condition<br> if (num1 >= num2 && num1 >= num3) {<br> largest = num1;<br> } else if (num2 >= num1 && num2 >= num3) {<br> largest = num2;<br> } else { largest = num3;<br> }
+        <br> document.getElementById("demo").innerHTML = largest; // display the result<br>
+    </P>
+    <p id="demo"></p>
+    <h1>3rd Program</h1>
+    <p><br>// program that checks if the number is positive, negative or zero<br> // input from the user<br> const number = parseInt(prompt("Enter a number: "));<br> // check if number is greater than 0<br> if (number > 0) {<br> document.getElementById("dom2").innerHTML
+        = "The number is positive"<br> // console.log("The number is positive");<br> }
+        <br>
+        <br> // check if number is 0<br> else if (number == 0) {<br> document.getElementById("dom2").innerHTML = "The number is zero"<br> // console.log("The number is zero");<br> }
+        <br> // if number is less than 0<br> else {<br> document.getElementById("dom2").innerHTML = "The number is negative"<br> // console.log("The number is negative");<br> }
+        <br></p>
+    <p id="dom2"></p>
     <!----------------------------------------------------------------------------------------------------------->
-
-    3. Write a js program to check whether a number is negative, positive or zero.
-    <br><br> Enter Number to Check -ve / +ve : <input type="number" id="check_sign" placeholder="Enter Number to Check">
-    <br>
-    <br>
-    <button onclick="number_check()" type="submit">Get result</button>
-    <br>
-    <button onclick="reset()">Reset</button>
-    <br>
-    <p id="result_03">Program 3 Result :</p>
-    <hr>
-    <!----------------------------------------------------------------------------------------------------------->
-
-    4. Write a js program to check whether a number is divisible by 5 and 11 or not.
+    <hr> 4. Write a js program to check whether a number is divisible by 5 and 11 or not.
     <br>
     <br> Enter Number to check : <input type="number" id="divison" placeholder="Enter Num to check divis">
     <br>
